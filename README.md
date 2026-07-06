@@ -1,63 +1,64 @@
-# 🏓 **Ping Pong Game** 
+# 🚀 Python Event-Driven Simulation Engine
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![Game](https://img.shields.io/badge/Genre-Arcade%20Sports-green)
+![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-purple)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-## 🎮 **Game Overview**
-A classic Ping Pong arcade game built with Python's Turtle graphics, featuring realistic physics, dual-player controls, and competitive scoring.
+## 📌 Engine Overview
+An object-oriented, event-driven simulation platform built with Python's Turtle graphics. This engine manages asynchronous user-input listening, vector-based kinematic calculations, and continuous execution loops within a localized coordinates environment.
 
-## ✨ **Key Features**
-- 🕹️ **Dual-player controls** (W/S and Arrow Keys)
-- ⚡ **Dynamic ball physics** with speed acceleration
-- 📊 **Score tracking** with first-to-7 win condition
-- 🎨 **Clean visual design** with Turtle graphics
-- � **Authentic paddle mechanics** with precise collision
+## ✨ Core Features
+- 🕹️ **Event-Driven Input Listening:** Asynchronous keyboard event hooks (`W/S` and `Arrow Keys`) for dual-player execution.
+- ⚡ **Kinematic Acceleration:** Progressive velocity vector updates upon successful entity collision.
+- 📊 **State & Score Tracking:** Real-time state validation with an automated first-to-7 termination threshold.
+- 🎨 **Procedural Layout Rendering:** Object positioning and clean visual output driven by Turtle graphics API.
+- 🎯 **Rigid Body Reflected Mechanics:** Algorithmic boundary checking for precise collision detection and vector resets.
 
-## 🛠️ **Technical Implementation**
+## 🛠️ Technical Implementation
 
-### 🏓 **Game Components**
+### 🧱 Modular Components
+The engine architecture isolates individual entities into domain-specific modules:
+
 ```python
-# Core Game Structure
+# System Core Architecture
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Ball
 from scoreboard import Scoreboard
 ```
 
-### 🎯 **Class Architecture**
-1. **Paddle Class** - Player-controlled paddles
-2. **Ball Class** - Game ball with physics
-3. **Scoreboard Class** - Score tracking and display
+### 🧬 Class Architecture
+1. **Paddle Class** - Player-controlled subsystems managing directional movement vectors.
+2. **Ball Class** - Dynamic simulation object managing position coordinates and collision kinematics.
+3. **Scoreboard Class** - State monitoring system handling numeric score data and terminal rendering.
 
-## 📦 **System Requirements**
+## 📦 System Requirements
 - Python 3.8+
-- Turtle module (standard library)
+- Turtle module (Standard library dependency)
 
-## ⚙️ **Installation**
-```bash
-git clone https://github.com/yourusername/ping-pong-game.git
-cd ping-pong-game
-```
+## ⚙️ Installation & Execution
 
-## 🚀 **How to Run**
 ```bash
+git clone https://github.com/muhamad-ammar-dev/python-simulation-engine.git
+cd python-simulation-engine
 python ping_pong.py
 ```
 
-## 🎮 **Game Controls**
-| Player | Controls |
-|--------|----------|
-| Left Player | W (Up), S (Down) |
-| Right Player | ↑ (Up), ↓ (Down) |
+## 🎮 Simulation Control Layout
 
-## 📊 **Scoring System**
-- First player to reach 7 points wins
-- Ball resets after each point
-- Progressive speed increase
+| Entity Cluster | Input Vector Keys |
+|----------------|-------------------|
+| Left Actuator | `W` (Up), `S` (Down) |
+| Right Actuator | `↑` (Up), `↓` (Down) |
 
-## 🖥️ **Game Interface Preview**
-```
+## 📊 Scoring & Termination Criteria
+- The system terminates and reaches the victory condition when a single instance scores 7 points.
+- The ball object executes a coordinate reset after each point validation.
+- Progressive velocity vector acceleration is applied to increase difficulty.
+
+## 🖥️ System Interface Preview
+
+```text
     Left: 3   |   Right: 5
     -------------------------
     |                       |
@@ -68,33 +69,34 @@ python ping_pong.py
     -------------------------
 ```
 
-## 📂 **Project Structure**
-```
-ping-pong/
-├── ping_pong.py       # Main game file
-├── paddle.py          # Paddle implementation
-├── ball.py            # Ball physics
-├── scoreboard.py      # Scoring system
-└── README.md          # Documentation
+## 📂 Project Structure
+
+```text
+python-simulation-engine/
+├── ping_pong.py       # Main engine execution & event loop
+├── paddle.py          # Paddle class implementation
+├── ball.py            # Ball physics and vector updates
+├── scoreboard.py      # Score tracking and text rendering
+└── README.md          # System documentation
 ```
 
-## 🤝 **Contributing Guidelines**
+## 🤝 Contributing Guidelines
 1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
 5. Open a pull request
 
-## 📜 **License**
-MIT License - See [LICENSE](LICENSE) for details
+## 📜 License
+MIT License - See [LICENSE](LICENSE) for details.
 
-## 📧 Contact
-- ✉️ **Email**: [muhamedammar0900@gmail.com](mailto:muhamedammar0900@gmail.com)  
+## 📧 Engineering Contact
+- ✉️ **Email**: [muhamedammar0900@gmail.com](mailto:muhamedammar0900@gmail.com)
 - 🔗 **LinkedIn**: [Muhamad Ammar](https://www.linkedin.com/in/muhamad-ammar-18b427306)
-  
+
 ---
 
-**Happy gaming!** For bug reports or feature requests, please open an issue on GitHub.
+For bug reports or feature requests, please open an issue on GitHub.
 
-## 🏆 **Victory Condition**
-First player to score 7 points wins the match with a dramatic "GAME OVER" screen!
+## 🏆 Victory Condition
+First player to score 7 points wins the match execution with a terminal **"GAME OVER"** screen render!
