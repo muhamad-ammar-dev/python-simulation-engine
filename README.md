@@ -72,7 +72,7 @@ python ping_pong.py
 ## 📂 Project Structure
 
 ```text
-Ping-Pong-Game/
+ping-pong-game/
 ├── ping_pong.py       # Main engine execution & event loop
 ├── paddle.py          # Paddle class implementation
 ├── ball.py            # Ball physics and vector updates
