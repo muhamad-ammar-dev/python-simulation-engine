@@ -4,7 +4,7 @@
 ![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-purple)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-## 📌 Game Overview-
+## 📌 Game Overview
 An object-oriented Ping Pong game built with Python's Turtle graphics, demonstrating event-driven programming, collision detection, modular architecture, and real-time game state management.
 
 ## ✨ Core Features
