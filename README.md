@@ -39,8 +39,8 @@ from scoreboard import Scoreboard
 ## ⚙️ Installation & Execution
 
 ```bash
-git clone https://github.com/muhamad-ammar-dev/python-simulation-engine.git
-cd python-simulation-engine
+git clone https://github.com/muhamad-ammar-dev/ping-pong-game.git
+cd ping-pong-game
 python ping_pong.py
 ```
 
