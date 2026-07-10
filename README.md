@@ -1,11 +1,11 @@
-# 🚀 Python Event-Driven Simulation Engine
+# 🏓 Python Event-Driven Ping Pong Game
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-purple)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-## 📌 Engine Overview
-An object-oriented, event-driven simulation platform built with Python's Turtle graphics. This engine manages asynchronous user-input listening, vector-based kinematic calculations, and continuous execution loops within a localized coordinates environment.
+## 📌 Game Overview
+An object-oriented Ping Pong game built with Python's Turtle graphics, demonstrating event-driven programming, collision detection, modular architecture, and real-time game state management.
 
 ## ✨ Core Features
 - 🕹️ **Event-Driven Input Listening:** Asynchronous keyboard event hooks (`W/S` and `Arrow Keys`) for dual-player execution.
@@ -72,7 +72,7 @@ python ping_pong.py
 ## 📂 Project Structure
 
 ```text
-python-simulation-engine/
+Ping-Pong-Game/
 ├── ping_pong.py       # Main engine execution & event loop
 ├── paddle.py          # Paddle class implementation
 ├── ball.py            # Ball physics and vector updates
