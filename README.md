@@ -31,7 +31,7 @@ The project follows a modular object-oriented architecture where each game compo
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Ball
-from scoreboard import Scoreboard
+from score import Scoreboard
 ```
 
 ### 🧬 Class Responsibilities
@@ -105,7 +105,7 @@ ping-pong-game/
 ├── ping_pong.py      # Main game loop
 ├── paddle.py         # Paddle implementation
 ├── ball.py           # Ball movement & collision logic
-├── scoreboard.py     # Score management and game-over display
+├── score.py          # Score management and game-over display
 └── README.md
 ```
 
