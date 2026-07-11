@@ -145,5 +145,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
 - 📩 **Email:** [Muhamedammar0900@gmail.com](mailto:Muhamedammar0900@gmail.com)
 - 💼 **LinkedIn:** [Muhamad Ammar](https://www.linkedin.com/in/muhamad-ammar-18b427306)
 
----
-
