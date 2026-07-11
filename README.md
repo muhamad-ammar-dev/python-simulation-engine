@@ -117,8 +117,9 @@ ping-pong-game/
 - Object-Oriented Programming (OOP)
 - Event-Driven Programming
 - Turtle Graphics
-- Collision Detection
 - Algorithms
+- Collision Detection
+
 
 ---
 
